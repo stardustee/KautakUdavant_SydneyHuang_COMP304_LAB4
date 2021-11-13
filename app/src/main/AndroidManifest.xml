@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.KautakUdavant_SydneyHuang_COMP304_LAB4">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KautakUdavant_SydneyHuang_COMP304_LAB4">
+        <activity android:name="com.example.KautakUdavant_SydneyHuang_COMP304_LAB4.Views.TestInfoActivity"></activity>
+        <activity android:name="com.example.KautakUdavant_SydneyHuang_COMP304_LAB4.Views.PatientHistoryActivity" />
+        <activity android:name="com.example.KautakUdavant_SydneyHuang_COMP304_LAB4.Views.PatientEditActivity" />
+        <activity
+            android:name="com.example.KautakUdavant_SydneyHuang_COMP304_LAB4.Views.PatientAddActivity"
+            android:parentActivityName="com.example.KautakUdavant_SydneyHuang_COMP304_LAB4.Views.PatientActivity" />
+        <activity
+            android:name="com.example.KautakUdavant_SydneyHuang_COMP304_LAB4.Views.NurseRegistrationActivity"
+            android:parentActivityName="com.example.KautakUdavant_SydneyHuang_COMP304_LAB4.Views.MainActivity" />
+        <activity android:name="com.example.KautakUdavant_SydneyHuang_COMP304_LAB4.Views.ViewTestInfoActivity" />
+        <activity android:name="com.example.KautakUdavant_SydneyHuang_COMP304_LAB4.Views.TestActivity" />
+        <activity android:name="com.example.KautakUdavant_SydneyHuang_COMP304_LAB4.Views.PatientActivity" />
+        <activity
+            android:name="com.example.KautakUdavant_SydneyHuang_COMP304_LAB4.Views.LoginActivity"
+            android:parentActivityName="com.example.KautakUdavant_SydneyHuang_COMP304_LAB4.Views.MainActivity" />
+        <activity android:name="com.example.KautakUdavant_SydneyHuang_COMP304_LAB4.Views.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

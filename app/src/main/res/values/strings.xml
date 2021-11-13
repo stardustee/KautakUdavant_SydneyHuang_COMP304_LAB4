@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">KautakUdavant_SydneyHuang_COMP304_LAB4</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="add_new_patient">Add New Patient</string>
+    <string name="nurse_id">Nurse ID</string>
+    <string name="save_patient">Save Patient</string>
+    <string name="room">Room</string>
+    <string name="last_name">Last Name</string>
+    <string name="patient_id">Patient ID</string>
+    <string name="bph">BPM</string>
+    <string name="temprature">Temprature</string>
+    <string name="body_temprature">Body Temprature</string>
+    <string name="add_test">Add Test</string>
+    <string name="bpl">BPL</string>
+    <string name="body_inspection">Body Inspection</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Views.PatientAddActivity">
+
+
+    <!--EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etpatientId"
+        android:hint="Patient ID"/-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etpatientFirstName"
+        android:hint="First Name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etpatientLastName"
+        android:hint="Last Name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etpatientDepartment"
+        android:hint="Department"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etpatientRoom"
+        android:hint="Room"/>
+
+    <!--EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etn_NurseID"
+        android:hint="Nurse ID"/-->
+
+    <Button
+        android:id="@+id/btnAddPatient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FC9898"
+        android:onClick="addNewPatient"
+        android:text="Add New Patient" />
+
+</LinearLayout>
